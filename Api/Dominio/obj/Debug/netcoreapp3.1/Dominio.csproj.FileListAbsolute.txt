@@ -1,0 +1,8 @@
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

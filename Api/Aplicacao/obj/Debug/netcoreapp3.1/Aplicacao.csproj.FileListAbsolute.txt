@@ -1,0 +1,13 @@
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csprojAssemblyReference.cache
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.AssemblyInfoInputs.cache
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.AssemblyInfo.cs
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.deps.json
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Aplicacao.pdb
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Infraestrutura.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\bin\Debug\netcoreapp3.1\Infraestrutura.pdb
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.csproj.CopyComplete
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.dll
+C:\Users\daisycs\Projeto Do Estagio\ApiBemPreparados\Api\Aplicacao\obj\Debug\netcoreapp3.1\Aplicacao.pdb

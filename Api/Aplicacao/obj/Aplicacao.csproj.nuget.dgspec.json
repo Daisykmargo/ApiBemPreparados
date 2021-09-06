@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Aplicacao\\Aplicacao.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Aplicacao\\Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Aplicacao\\Aplicacao.csproj",
+        "projectName": "Aplicacao",
+        "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Aplicacao\\Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj"
+              },
+              "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\Infraestrutura.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\Infraestrutura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "refit": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\Infraestrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\Infraestrutura.csproj",
+        "projectName": "Infraestrutura",
+        "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\Infraestrutura.csproj",
+        "packagesPath": "C:\\Users\\daisycs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Infraestrutura\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\daisycs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\daisycs\\Projeto Do Estagio\\ApiBemPreparados\\Api\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
