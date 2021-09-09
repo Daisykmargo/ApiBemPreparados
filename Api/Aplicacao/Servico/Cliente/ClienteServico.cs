@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Aplicacao.Modelo.Cliente;
@@ -17,7 +17,7 @@ namespace Aplicacao.Servico
             _clienteRepositorio = clienteRepositorio;
         }
 
-        
+
         public async Task<IEnumerable<ClienteModelo>> BuscarCliente()
         {
             var cliente = await _clienteRepositorio.BuscarCliente();
@@ -26,21 +26,20 @@ namespace Aplicacao.Servico
         }
         public async Task<ClienteModelo> CriarCliente(ClienteEnvioModelo cliente)
         {
-            ValidarIdade(cliente.DtNascimento);
 
             var clientes = new ClienteDominio(
-                
-                cliente.Cpf, 
-                cliente.Nome, 
-                cliente.DtNascimento, 
-                cliente.Genero, 
-                cliente.VlrSalario, 
-                cliente.Logradouro, 
-                cliente.NumeroResidencia, 
-                cliente.Bairro, 
-                cliente.Cidade, 
-                cliente.Cep, 
-                cliente.UsuarioAtualizacao 
+
+                cliente.Cpf,
+                cliente.Nome,
+                cliente.DtNascimento,
+                cliente.Genero,
+                cliente.VlrSalario,
+                cliente.Logradouro,
+                cliente.NumeroResidencia,
+                cliente.Bairro,
+                cliente.Cidade,
+                cliente.Cep,
+                cliente.UsuarioAtualizacao
             );
 
             var novoCliente = await _clienteRepositorio.GravarCliente(clientes);
@@ -55,24 +54,24 @@ namespace Aplicacao.Servico
 
             if (cliente == null)
             {
-               throw new ArgumentException($"Nenhum registro localizado com cpf {cpfCliente}.");
-                
+                throw new ArgumentException($"Nenhum registro localizado com cpf {cpfCliente}.");
+
             }
 
             cliente.AtualizarCliente(
-                
-                
-                clienteAtualizacao.Nome, 
-                clienteAtualizacao.DtNascimento, 
-                clienteAtualizacao.Genero, 
-                clienteAtualizacao.VlrSalario, 
-                clienteAtualizacao.Logradouro, 
-                clienteAtualizacao.NumeroResidencia, 
-                clienteAtualizacao.Bairro, 
-                clienteAtualizacao.Cidade, 
-                clienteAtualizacao.Cep, 
-                clienteAtualizacao.UsuarioAtualizacao 
-                
+
+
+                clienteAtualizacao.Nome,
+                clienteAtualizacao.DtNascimento,
+                clienteAtualizacao.Genero,
+                clienteAtualizacao.VlrSalario,
+                clienteAtualizacao.Logradouro,
+                clienteAtualizacao.NumeroResidencia,
+                clienteAtualizacao.Bairro,
+                clienteAtualizacao.Cidade,
+                clienteAtualizacao.Cep,
+                clienteAtualizacao.UsuarioAtualizacao
+
                 );
 
             await _clienteRepositorio.AtualizarCliente(cpfCliente, cliente);
@@ -87,20 +86,10 @@ namespace Aplicacao.Servico
             if (cliente == null)
             {
                 throw new ArgumentException($"Nenhum registro localizado com id {cpfCliente}.");
-                
+
             }
 
             return await _clienteRepositorio.DeletarCliente(cpfCliente);
-        }
-
-        private void ValidarIdade(DateTime dtNascimento)
-        {
-            var idade = (DateTime.Now.DayOfYear - dtNascimento.DayOfYear);
-
-            if (idade < 18)
-            {
-                throw new ArgumentException("Cliente não pode ter menos de 18 anos");
-            }
         }
 
     }

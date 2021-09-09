@@ -2,6 +2,7 @@ IoC\IoC.cs
 Modelo\Cep\CepModelo.cs
 Modelo\Cliente\ClienteEnvioModelo.cs
 Modelo\Cliente\ClienteModelo.cs
+Modelo\Conveniada\ConveniadaEnvioModelo.cs
 Modelo\Conveniada\ConveniadaModelo.cs
 Modelo\Login\LoginEnvioModelo.cs
 Modelo\Login\RetornoEnvioModelo.cs
@@ -20,4 +21,4 @@ Servico\Usuario\Interface\IUsuarioServico.cs
 Servico\Usuario\UsuarioServico.cs
 Token\ITokenGerador.cs
 Token\TokenGerador.cs
-C:\Users\daisycs\AppData\Local\Temp\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
